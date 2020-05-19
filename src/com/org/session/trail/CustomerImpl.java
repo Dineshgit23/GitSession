@@ -19,4 +19,8 @@ public class CustomerImpl {
 		return a - b;
 	}
 	
+	public int mulDiv(int a, int b, int c){
+		return (a/b)*c;
+	}
+	
 }
