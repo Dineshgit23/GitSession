@@ -19,4 +19,8 @@ public class CustomerImpl {
 		return a - b;
 	}
 	
+	public float mod(int a, int b){
+		return a % b;
+	}
+	
 }
