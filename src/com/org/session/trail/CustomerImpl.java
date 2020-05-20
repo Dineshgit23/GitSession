@@ -19,14 +19,13 @@ public class CustomerImpl {
 		return a - b;
 	}
 	
+	public double subDouble(double a, double b){
+		return a - b;
+	}
+	
 	public int mulDiv(int a, int b, int c){
 		
-		
 		return (a/b)*c;
-    }
-	
-	public long modLong(long a, long b){
-		return a % b;
     }
 	
 	public long mod(int a, int b){
