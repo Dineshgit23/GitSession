@@ -25,6 +25,10 @@ public class CustomerImpl {
 		return (a/b)*c;
     }
 	
+	public long modLong(long a, long b){
+		return a % b;
+    }
+	
 	public long mod(int a, int b){
 		return a % b;
     }
