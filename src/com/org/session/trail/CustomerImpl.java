@@ -22,6 +22,10 @@ public class CustomerImpl {
 	public int mulDiv(int a, int b, int c){
 		return (a/b)*c;
     }
+	
+	public long mod(int a, int b){
+		return a % b;
+    }
 
 	
 }
